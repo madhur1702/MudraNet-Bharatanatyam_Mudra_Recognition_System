@@ -201,4 +201,6 @@ MudraNet/
 
 Made with ❤️ for preserving Indian Classical Dance Heritage
 
+Developed by **Madhur Bhandarkar**
+
 </div>
