@@ -141,7 +141,7 @@ Both branches are fused via concatenation and classified into **49 Bharatanatyam
 
 ### Step 1 — Clone Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/MudraNet.git
+git clone https://github.com/madhur1702/MudraNet.git
 cd MudraNet
 ```
 
@@ -150,14 +150,7 @@ cd MudraNet
 pip install -r requirements.txt
 ```
 
-### Step 3 — Download Model
-> ⚠️ Model file is large. Download from Google Drive:
-
-📥 **[Download mudranet_final.keras](YOUR_GOOGLE_DRIVE_LINK)**
-
-Place `mudranet_final.keras` in the project root folder.
-
-### Step 4 — Run App
+### Step 3 — Run App
 ```bash
 streamlit run app.py
 ```
@@ -186,6 +179,7 @@ MudraNet/
 ├── app.py                      # Streamlit web application
 ├── MudraNet_Training.ipynb     # Complete training notebook
 │
+├── mudranet_final.keras        # Trained MudraNet model
 ├── class_names.json            # 49 mudra class names
 ├── label_encoder.pkl           # Sklearn label encoder
 ├── hand_landmarker.task        # MediaPipe hand landmark model
@@ -195,12 +189,6 @@ MudraNet/
 │
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
-│
-│   ── Not in repo (too large) ──
-├── mudranet_final.keras        # Trained model → Google Drive
-├── X_images.npy                # Image dataset arrays
-├── X_landmarks.npy             # Landmark dataset arrays
-└── y_labels.npy                # Label arrays
 ```
 
 ---
